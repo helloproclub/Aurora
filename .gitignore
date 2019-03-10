@@ -80,3 +80,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# remove build product
+/build/
+/dist/
