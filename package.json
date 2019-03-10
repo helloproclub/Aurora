@@ -26,12 +26,14 @@
   },
   "homepage": "https://github.com/helloproclub/Pinoccio#readme",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "webpack": "^4.29.6"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "@storybook/react": "^5.0.1",
@@ -42,6 +44,7 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "ttf-loader": "^1.0.2",
     "webpack-cli": "^3.2.3"
   }
 }

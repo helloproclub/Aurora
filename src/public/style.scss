@@ -1,0 +1,32 @@
+// registering fonts
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: url('./assets/fonts/SourceSansPro-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./assets/fonts/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./assets/fonts/SourceSansPro-Bold.ttf');
+}
+
+* {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif
+}

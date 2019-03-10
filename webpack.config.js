@@ -8,8 +8,7 @@ module.exports = {
         libraryTarget: 'commonjs2'
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
@@ -19,6 +18,15 @@ module.exports = {
             {
                 test: /\.scss$/,
                 loaders: ["style-loader", "css-loader", "sass-loader"]
+            },
+            {
+                test: /\.ttf$/,
+                use: [{
+                    loader: 'ttf-loader',
+                    options: {
+                        name: './font/[hash].[ext]',
+                    },
+                }]
             }
         ]
     }
