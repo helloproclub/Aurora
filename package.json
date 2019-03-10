@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook"
   },
   "repository": {
     "type": "git",
@@ -26,12 +27,14 @@
   "homepage": "https://github.com/helloproclub/Pinoccio#readme",
   "dependencies": {
     "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "webpack": "^4.29.6"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.0.1",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.5",
     "node-sass": "^4.11.0",
