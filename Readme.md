@@ -22,7 +22,7 @@ $ npm link
 ```json
 "dependancies": {
     ...
-    "pinoccio" = "path/to/pinoccio"
+    "pinoccio": "path/to/pinoccio"
     ...
 }
 ```
