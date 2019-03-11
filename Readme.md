@@ -40,7 +40,7 @@ class SomeContainer extends React.Component {
 ```
 
 ## CONTRIBUTING
-Please read our contribution [ guideline ]( './CONTRIBUTING.md' )
+Please read our contribution [ guideline ]( 'CONTRIBUTING.md' )
 
 ## Component Documentation
 will be added soon
