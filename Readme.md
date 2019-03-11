@@ -19,7 +19,13 @@ $ npm run build
 $ npm link
 ```
 4. in your project folder that use pinoccio add this line as dependancy in package.json
-``` pinoccio = 'path/to/pinoccio' ```
+```json
+"dependancies": {
+    ...
+    "pinoccio" = "path/to/pinoccio"
+    ...
+}
+```
 
 ### Usage
 ```jsx
