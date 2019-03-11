@@ -1,5 +1,7 @@
 import HelloWorld from './components/HelloWorld'
 
-export default {
-   HelloWorld 
-};
+// registering export
+export {
+    HelloWorld
+}
+

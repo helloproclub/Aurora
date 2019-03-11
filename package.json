@@ -2,7 +2,7 @@
   "name": "pinoccio",
   "version": "1.0.0",
   "description": "Proclub Design System written in React; may you bring your idea to life",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/helloproclub/Pinoccio#readme",
   "dependencies": {
+    "create-react-app": "^2.1.8",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
