@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import HelloWorld from '../src/components/HelloWorld'
+import Button from '../src/components/Button';
 
-storiesOf('Hello World', module)
+storiesOf('Button', module)
     // use this for documentation
     .addParameters({
         info: {
@@ -10,5 +10,6 @@ storiesOf('Hello World', module)
         }
     })
     .add('with proclub', () => (
-        <HelloWorld name="Proclub"/>
+        <Button/>
     ));
+

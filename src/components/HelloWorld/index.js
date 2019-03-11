@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../public/style.scss'
+import '../../public/fonts.scss'
 import './style.scss';
 
-class HelloWorld extends React.Component {
+export default class HelloWorld extends React.Component {
     // declare property with proptype
     static propTypes = {
         name: PropTypes.string.isRequired
@@ -15,5 +15,3 @@ class HelloWorld extends React.Component {
         )
     }
 }
-
-export default HelloWorld;
