@@ -9,7 +9,7 @@ storiesOf('Button', module)
             source: true
         }
     })
-    .add('with proclub', () => (
+    .add('default', () => (
         <Button/>
     ));
 
