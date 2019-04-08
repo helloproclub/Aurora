@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../public/fonts.scss'
+import '../../public/fonts.scss';
 import './style.scss';
 
-export default class HelloWorld extends React.Component {
-    // declare property with proptype
-    static propTypes = {
-        name: PropTypes.string.isRequired
-    }
+const HelloWorld = ({ name }) => (
+  <h1 className="container">
+Hello
+    <span className="name">{ name }</span>
+  </h1>
+);
 
-    render() {
-        return (
-            <h1 className="container">Hello <span className="name">{ this.props.name }</span></h1>
-        )
-    }
-}
+HelloWorld.propTypes = {
+  name: PropTypes.string.isRequired,
+};
+
+export default HelloWorld;

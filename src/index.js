@@ -1,9 +1,8 @@
-import HelloWorld from './components/HelloWorld'
-import Button from './components/Button'
+import HelloWorld from './components/HelloWorld';
+import Button from './components/Button';
 
 // registering export
 export {
-    HelloWorld,
-    Button
-}
-
+  HelloWorld,
+  Button,
+};
