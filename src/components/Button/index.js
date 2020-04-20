@@ -7,7 +7,7 @@ export default class Button extends React.Component {
     static propTypes = {
         text: PropTypes.string.isRequired,
         onPressed: PropTypes.func,
-        type: PropTypes.text,
+        type: PropTypes.string,
         disabled: PropTypes.bool,
         design: PropTypes.string,
         size: PropTypes.string

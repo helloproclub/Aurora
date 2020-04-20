@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Proclub Design System written in React; may you bring your idea to life",
   "main": "build/index.js",
+  "engines" : { "node" : ">=12.16.2" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch",
-    "build": "webpack",
+    "build": "webpack --config webpack.config.build.js",
     "storybook": "start-storybook"
   },
   "repository": {
@@ -43,8 +43,11 @@
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.0.0",
     "node-sass": "^4.11.0",
+    "react-scripts": "^3.4.1",
     "sass-loader": "^7.1.0",
+    "storybook": "^5.3.18",
     "style-loader": "^0.23.1",
     "ttf-loader": "^1.0.2",
     "webpack-cli": "^3.2.3"
