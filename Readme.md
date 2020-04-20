@@ -1,4 +1,4 @@
-# Pinoccio
+# Aurora
 
 Proclub Design System written in React; may you bring your idea to life
 
@@ -22,7 +22,7 @@ $ npm link
 ```json
 "dependancies": {
     ...
-    "pinoccio": "path/to/pinoccio"
+    "aurora": "path/to/aurora"
     ...
 }
 ```
@@ -30,7 +30,7 @@ $ npm link
 ### Usage
 ```jsx
 import React from 'react'
-import { HelloWorld } from 'pinoccio';
+import { HelloWorld } from 'aurora';
 
 class SomeContainer extends React.Component {
     render() {
