@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import '../src/public/fonts.scss';
 
 storiesOf('Typography', module)
     // use this for documentation
