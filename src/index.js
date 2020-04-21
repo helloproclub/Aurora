@@ -1,9 +1,11 @@
 import HelloWorld from './components/HelloWorld'
-import Button from './components/Button'
+import BackgroundColor from './components/BackgroundColor'
+import FontColor from './components/FontColor'
 
 // registering export
 export {
     HelloWorld,
-    Button
+    BackgroundColor,
+    FontColor
 }
 

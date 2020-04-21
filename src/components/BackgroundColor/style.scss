@@ -1,0 +1,160 @@
+@import "../../public/colors.scss";
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.pallete {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+// Color pallete
+.background-gray {
+    background-color: $gray;
+}
+
+.background-aqua {
+    background-color: $aqua;
+}
+
+.background-green {
+    background-color: $green;
+}
+
+.background-purple {
+    background-color: $purple;
+}
+
+.background-orange {
+    background-color: $orange;
+}
+
+.background-red {
+    background-color: $red;
+}
+
+.background-black {
+    background-color: $black;
+}
+
+.background-white {
+    background-color: $white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background-blue {
+    background-color: $blue;
+}
+
+.background-lavender {
+    background-color: $lavender;
+}
+
+.background-yellow {
+    background-color: $yellow;
+}
+
+.background-pink {
+    background-color: $pink;
+}
+
+// color theme
+.background-primary {
+    background-color: $primary;
+}
+
+.background-primary-variant {
+    background-color: $primary-variant;
+}
+
+.background-secondary {
+    background-color: $secondary;
+}
+
+.background-secondary-variant {
+    background-color: $secondary-variant;
+}
+
+.background-success {
+    background-color: $success;
+}
+
+.background-error {
+    background-color: $error;
+}
+
+.background-warning {
+    background-color: $warning;
+}
+
+.background-info {
+    background-color: $info;
+}
+
+.background-accent-purple {
+    background-color: $accent-purple;
+}
+
+.background-accent-lavender {
+    background-color: $accent-lavender;
+}
+
+.background-accent-pink {
+    background-color: $accent-pink;
+}
+
+.background-typography-black {
+    background-color: $typography-black;
+}
+
+.background-typography-white {
+    background-color: $typography-white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background-typography-disable {
+    background-color: $typography-disable;
+}
+
+// color gradient
+.background-celestial {
+    background: $celestial;
+}
+
+.background-meridian {
+    background: $meridian;
+}
+
+.background-by-design {
+    background: $by-design;
+}
+
+.background-ultra-violet {
+    background: $ultra-violet;
+}
+
+.background-blue-ocean {
+    background: $blue-ocean;
+}
+
+.background-sunrise {
+    background: $sunrise;
+}
+
+.background-aubergin {
+    background: $aubergin;
+}
+
+.background-twitch {
+    background: $twitch;
+}
+
+.background-witching-hour {
+    background: $witching-hour;
+}

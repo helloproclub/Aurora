@@ -1,0 +1,178 @@
+@import "../../public/colors.scss";
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.pallete {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+// Color pallete
+.gray {
+    color: $gray;
+}
+
+.aqua {
+    color: $aqua;
+}
+
+.green {
+    color: $green;
+}
+
+.purple {
+    color: $purple;
+}
+
+.orange {
+    color: $orange;
+}
+
+.red {
+    color: $red;
+}
+
+.black {
+    color: $black;
+}
+
+.white {
+    color: $white;
+    text-shadow: 0.4px 0.4px $black;
+}
+
+.blue {
+    color: $blue;
+}
+
+.lavender {
+    color: $lavender;
+}
+
+.yellow {
+    color: $yellow;
+}
+
+.pink {
+    color: $pink;
+}
+
+// color theme
+.primary {
+    color: $primary;
+}
+
+.primary-variant {
+    color: $primary-variant;
+}
+
+.secondary {
+    color: $secondary;
+}
+
+.secondary-variant {
+    color: $secondary-variant;
+}
+
+.success {
+    color: $success;
+}
+
+.error {
+    color: $error;
+}
+
+.warning {
+    color: $warning;
+}
+
+.info {
+    color: $info;
+}
+
+.accent-purple {
+    color: $accent-purple;
+}
+
+.accent-lavender {
+    color: $accent-lavender;
+}
+
+.accent-pink {
+    color: $accent-pink;
+}
+
+.typography-black {
+    color: $typography-black;
+}
+
+.typography-white {
+    color: $typography-white;
+    text-shadow: 0.4px 0.4px $black;
+}
+
+.typography-disable {
+    color: $typography-disable;
+}
+
+// color gradient
+.celestial {
+    background: $celestial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.meridian {
+    background: $meridian;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.by-design {
+    background: $by-design;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ultra-violet {
+    background: $ultra-violet;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue-ocean {
+    background: $blue-ocean;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sunrise {
+    background: $sunrise;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aubergin {
+    background: $aubergin;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twitch {
+    background: $twitch;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.witching-hour {
+    background: $witching-hour;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

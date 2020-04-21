@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Proclub Design System written in React; may you bring your idea to life",
   "main": "build/index.js",
-  "engines" : { "node" : ">=12.16.2" },
+  "engines": {
+    "node": ">=12.16.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.build.js",
