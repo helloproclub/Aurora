@@ -12,7 +12,7 @@ const ButtonText = ( {text, type, disabled} ) => {
                     alert('Hai')
                 } } 
                 disabled={ disabled }
-                className={ `buttonText ` }
+                className={ `kebab-case` }
             > 
                 { text }
         </button>
