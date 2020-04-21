@@ -1,9 +1,9 @@
 import HelloWorld from './components/HelloWorld'
-import Button from './components/Button'
+import ButtoText from './components/ButtonText'
 
 // registering export
 export {
     HelloWorld,
-    Button
+    ButtonText
 }
 
