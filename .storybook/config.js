@@ -4,8 +4,8 @@ import { withInfo } from '@storybook/addon-info';
 
 
 function loadStories() {
-    require('../stories/HelloWorld.stories');
-    require('../stories/Button.stories');
+    require('../stories/HelloWorld.stories');    
+    require('../stories/ButtonText.stories');
 }
 
 addDecorator(withInfo)
