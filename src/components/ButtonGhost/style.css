@@ -1,0 +1,19 @@
+.button-ghost {
+  border: 1px solid #757575;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding: 24px 32px;
+}
+.button-ghost:hover {
+  background: rgba(202, 202, 202, 0.5);
+}
+.button-ghost:active {
+  background: #cacaca;
+}

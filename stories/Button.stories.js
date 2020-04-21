@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from '../src/components/Button';
-
+import GhostButton from '../src/components/ButtonGhost';
 storiesOf('Button', module)
     // use this for documentation
     .addParameters({
@@ -16,25 +16,9 @@ storiesOf('Button', module)
             <Button design="primary" size="big" text="Press Me!"/>
         </div>
     ))
-    .add('primary disabled', () => (
-         <div>
-            <Button design="primary" size="small" text="Press Me!" disabled/>
-            <Button design="primary" size="medium" text="Press Me!" disabled/>
-            <Button design="primary" size="big" text="Press Me!" disabled/>
-        </div>   
-    ))
-    .add('secondary default', () => (
+    .add('Ghost default', () => (
         <div>
-            <Button design="secondary" size="small" text="Press Me!"/>
-            <Button design="secondary" size="medium" text="Press Me!"/>
-            <Button design="secondary" size="big" text="Press Me!"/>
+            <GhostButton text="GHOST BUTTON"></GhostButton>
         </div>
-    ))
-    .add('secondary disabled', () => (
-         <div>
-            <Button design="secondary" size="small" text="Press Me!" disabled/>
-            <Button design="secondary" size="medium" text="Press Me!" disabled/>
-            <Button design="secondary" size="big" text="Press Me!" disabled/>
-        </div>   
     ))
 
