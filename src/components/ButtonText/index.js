@@ -4,13 +4,12 @@ import '../../public/fonts.scss';
 import './style.scss';
 
 
-const ButtonText = ( {text, type, disabled} ) => {
+
+const ButtonText = ( {text, type, onPressed, disabled} ) => {
     return(
         <button 
                 type={ type } 
-                onClick={ () => {
-                    alert('Hai')
-                } } 
+                onClick={ () => onPressed() } 
                 disabled={ disabled }
                 className={ `button-text` }
             > 
@@ -21,13 +20,17 @@ const ButtonText = ( {text, type, disabled} ) => {
 
 ButtonText.defaultProps = {
     type: "button",                
-    disabled: false
+    disabled: false,
+    onPressed: () => {
+        alert('Selamat Datang')
+    },
 }
 
 ButtonText.propTypes = {
     text: PropTypes.string.isRequired,    
     type: PropTypes.string,
     disabled: PropTypes.bool,     
+    onPressed: PropTypes.func,
 }
 
 export default ButtonText;
