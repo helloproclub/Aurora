@@ -1,24 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../public/fonts.scss';
 import './style.scss';
 
-export default class Container extends React.Component {
-    static propTypes = {
-        backgroundColor: PropTypes.string
-    }
+const Container = ({ backgroundColor }) => {
+    return (
+        <div className={`palette ${backgroundColor}`}></div>
+    );
+};
 
-    static defaultProps = {
-        backgroundColor: "background-default"
-    }
-
-    render() {
-        const { backgroundColor } = this.props
-        return (
-            <div
-                className={`pallete ${backgroundColor}`}
-            >
-            </div>
-        )
-    }
+Container.defaultProps = {
+    backgroundColor: "background-default",
 }
+
+Container.propTypes = {
+    backgroundColor: PropTypes.string,
+}
+
+export default Container
