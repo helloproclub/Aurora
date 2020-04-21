@@ -1,11 +1,11 @@
 import HelloWorld from './components/HelloWorld'
-import BackgroundColor from './components/BackgroundColor'
+import Container from './components/Container'
 import FontColor from './components/FontColor'
 
 // registering export
 export {
     HelloWorld,
-    BackgroundColor,
+    Container,
     FontColor
 }
 

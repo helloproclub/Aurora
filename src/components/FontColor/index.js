@@ -5,20 +5,20 @@ import './style.scss';
 
 export default class FontColor extends React.Component {
     static propTypes = {
-        design: PropTypes.string
+        fontColor: PropTypes.string
     }
 
     static defaultProps = {
-        design: "background-white"
+        fontColor: "default"
     }
 
     render() {
-        const { design } = this.props
+        const { fontColor } = this.props
         return (
             <div
-                className={`pallete ${design}`}
+                className={`pallete ${fontColor}`}
             >
-                {this.props.design}
+                {this.props.fontColor}
             </div>
         )
     }

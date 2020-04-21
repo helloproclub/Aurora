@@ -3,20 +3,20 @@ import PropTypes from 'prop-types';
 import '../../public/fonts.scss';
 import './style.scss';
 
-export default class BackgroundColor extends React.Component {
+export default class Container extends React.Component {
     static propTypes = {
-        design: PropTypes.string
+        backgroundColor: PropTypes.string
     }
 
     static defaultProps = {
-        design: "background-white"
+        backgroundColor: "background-default"
     }
 
     render() {
-        const { design } = this.props
+        const { backgroundColor } = this.props
         return (
             <div
-                className={`pallete ${design}`}
+                className={`pallete ${backgroundColor}`}
             >
             </div>
         )

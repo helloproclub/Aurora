@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import FontColor from '../src/components/FontColor';
 
-storiesOf('Font FontColor', module)
+storiesOf('Font Color', module)
     // use this for documentation
     .addParameters({
         info: {
@@ -12,117 +12,120 @@ storiesOf('Font FontColor', module)
 
     .add('Color Palette', () => (
         <div className="container">
-            <FontColor design="gray">
+            <FontColor fontColor="default">
+            </FontColor>
+
+            <FontColor fontColor="gray">
             </FontColor>
     
-            <FontColor design="aqua">
+            <FontColor fontColor="aqua">
             </FontColor>
     
-            <FontColor design="green">
+            <FontColor fontColor="green">
             </FontColor>
     
-            <FontColor design="purple">
+            <FontColor fontColor="purple">
             </FontColor>
     
-            <FontColor design="orange">
+            <FontColor fontColor="orange">
             </FontColor>
     
-            <FontColor design="red">
+            <FontColor fontColor="red">
             </FontColor>
     
-            <FontColor design="black">
+            <FontColor fontColor="black">
             </FontColor>
     
-            <FontColor design="white">
+            <FontColor fontColor="white">
             </FontColor>
     
-            <FontColor design="blue">
+            <FontColor fontColor="blue">
             </FontColor>
     
-            <FontColor design="lavender">
+            <FontColor fontColor="lavender">
             </FontColor>
     
-            <FontColor design="yellow">
+            <FontColor fontColor="yellow">
             </FontColor>
     
-            <FontColor design="pink">
+            <FontColor fontColor="pink">
             </FontColor>
         </div>
     ))
 
     .add('Color Theme', () => (
         <div className="container">
-            <FontColor design="primary">
+            <FontColor fontColor="primary">
             </FontColor>
             
-            <FontColor design="primary-variant">
+            <FontColor fontColor="primary-variant">
             </FontColor>
             
-            <FontColor design="secondary">
+            <FontColor fontColor="secondary">
             </FontColor>
             
-            <FontColor design="secondary-variant">
+            <FontColor fontColor="secondary-variant">
             </FontColor>
             
-            <FontColor design="success">
+            <FontColor fontColor="success">
             </FontColor>
             
-            <FontColor design="error">
+            <FontColor fontColor="error">
             </FontColor>
             
-            <FontColor design="warning">
+            <FontColor fontColor="warning">
             </FontColor>
             
-            <FontColor design="info">
+            <FontColor fontColor="info">
             </FontColor>
             
-            <FontColor design="accent-purple">
+            <FontColor fontColor="accent-purple">
             </FontColor>
             
-            <FontColor design="accent-lavender">
+            <FontColor fontColor="accent-lavender">
             </FontColor>
             
-            <FontColor design="accent-pink">
+            <FontColor fontColor="accent-pink">
             </FontColor>
             
-            <FontColor design="typography-black">
+            <FontColor fontColor="typography-black">
             </FontColor>
             
-            <FontColor design="typography-white">
+            <FontColor fontColor="typography-white">
             </FontColor>
             
-            <FontColor design="typography-disable">
+            <FontColor fontColor="typography-disable">
             </FontColor>
         </div>
     ))
 
     .add('Color Gradient', () => (
         <div className="container">
-            <FontColor design="celestial">
+            <FontColor fontColor="celestial">
             </FontColor>
             
-            <FontColor design="meridian">
+            <FontColor fontColor="meridian">
             </FontColor>
             
-            <FontColor design="by-design">
+            <FontColor fontColor="by-fontColor">
             </FontColor>
             
-            <FontColor design="ultra-violet">
+            <FontColor fontColor="ultra-violet">
             </FontColor>
             
-            <FontColor design="blue-ocean">
+            <FontColor fontColor="blue-ocean">
             </FontColor>
             
-            <FontColor design="sunrise">
+            <FontColor fontColor="sunrise">
             </FontColor>
             
-            <FontColor design="aubergin">
+            <FontColor fontColor="aubergin">
             </FontColor>
             
-            <FontColor design="twitch">
+            <FontColor fontColor="twitch">
             </FontColor>
             
-            <FontColor design="witching-hour">
+            <FontColor fontColor="witching-hour">
             </FontColor>
         </div>
     ))
