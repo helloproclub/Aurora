@@ -1,24 +1,41 @@
-// brand pallete
-$proclub-primary: #FC6A00;
-$proclub-secondary: #209CF6;
+$default: rgba(0, 0, 0, 0.0);
+// color palette
+$gray: #7C848D;
+$aqua: #209CF6;
+$green: #17BF82;
+$purple: #4E0C6F;
+$orange: #FC8412;
+$red: #F83600;
+$black: #252525;
+$white: #F6FDFF;
+$blue: #036EBA;
+$lavender: #9278DA;
+$yellow: #FFD33D;
+$pink: #F25CAF;
 
-// extenderd pallete
-$proclub-primary-1: #FFA562;
-$proclub-primary-2: #FF8C38;
-$proclub-primary-3: #C45300;
-$proclub-primary-4: #9A4100;
+// color theme
+$primary: #FC8412;
+$primary-variant: #E27D00;
+$secondary: #209CF6;
+$secondary-variant: #036EBA;
+$success: #17BF82;
+$error: #EC2F4B;
+$warning: #FFD33D;
+$info: #4AAFF7;
+$accent-purple: #4E0C6E;
+$accent-lavender: #9278DA;
+$accent-pink: #F25CAF;
+$typography-black: #252525;
+$typography-white: #F6FDFF;
+$typography-disable:#7C848D;
 
-$proclub-secondary-1: #77C2F7;
-$proclub-secondary-2: #4AAFF7;
-$proclub-secondary-3: #0991F2;
-$proclub-secondary-4: #0991F2;
-
-// neutral pallete
-$proclub-black: #000;
-$proclub-white: #fff;
-$proclub-orange: #F86339;
-$proclub-accent: #FEE5CD;
-$proclub-grey: #E0E0E0;
-
-// adjacent
-$proclub-purple: #333055;
+// color gradient
+$celestial: linear-gradient(180deg, #C33764 0%, #1D2671 100%);
+$meridian: linear-gradient(180deg, #283C86 0%, #45A247 100%);
+$by-design: linear-gradient(180deg, #009FFF 0%, #EC2F4B 100%);
+$ultra-violet: linear-gradient(180deg, #654EA3 0%, #EAAFC8 100%);
+$blue-ocean: linear-gradient(180deg, #373B44 0%, #4286F4 100%);
+$sunrise: linear-gradient(226.39deg, #FE8C00 0%, #F83600 100%);
+$aubergin: linear-gradient(180deg, #AA076B 0%, #61045F 100%);
+$twitch: linear-gradient(180deg, #6441A5 0%, #2A0845 100%);
+$witching-hour: linear-gradient(180deg, #C31432 0%, #240B36 100%);
