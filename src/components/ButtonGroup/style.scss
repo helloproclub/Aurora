@@ -1,0 +1,39 @@
+@import "../../public/colors.scss";
+
+.button-group {
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    background: $white;
+    padding: 15px 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+
+    //position
+    &-left {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    &-middle {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    &-right {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    //Button Selector
+    &:hover {
+        background: rgba(202, 202, 202, 0.5);
+    }
+    &:active {
+        background: $black;
+        color: $white;
+    }
+}
