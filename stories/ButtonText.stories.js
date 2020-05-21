@@ -9,9 +9,18 @@ storiesOf('ButtonText', module)
         }
     })
 
-    .add('default', () => (
+    .add('Filled Button', () => (
         <div>
-            <ButtonText text="Press ME!" />
+            <ButtonText text="Press ME!" size="small" color="primary" />            
         </div>
     ))
-    
+    .add('Filled Hover', () => (
+        <div>
+            <ButtonText text="Press ME!" size="small" color="primary-variant" />            
+        </div>
+    ))
+    .add('Filled Pressed', () => (
+        <div>
+            <ButtonText text="Press ME!" size="small" color="secondary-variant" />            
+        </div>
+    ))

@@ -1,17 +1,10 @@
 .button-text {
-    font-size: 14px;
-    color: black;
+    font-size: 14px;    
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 16px;
     border-style: none;
-    background-color: white;
-    padding-left: 35px;
-    padding-right: 35px;
-    height: 42px;
-    border-radius: 8px;
-    cursor: pointer;
-
-    &:hover, 
-    &:focus {
-        color: white;
-        background-color: black;
-    }
+    outline: none;
+    background-color: transparent;    
+    cursor: pointer;    
 }
