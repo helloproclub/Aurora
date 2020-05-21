@@ -1,17 +1,34 @@
-.button-text {
-    font-size: 14px;
-    color: black;
-    border-style: none;
-    background-color: white;
-    padding-left: 35px;
-    padding-right: 35px;
-    height: 42px;
-    border-radius: 8px;
-    cursor: pointer;
+@import "../../public/colors.scss";
 
-    &:hover, 
-    &:focus {
-        color: white;
-        background-color: black;
-    }
+.textarea-name{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.1px;
+color: $typography-border;
+flex: none;
+order: 0;
+align-self: flex-start;
+margin: 0px 4px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    position: static;
+    width: 376px;
+    height: 131px;
+    left: 12px;
+    top: 38px;
+    border: 1px solid $typography-border;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 4px;
+    background: $typography-white;
 }

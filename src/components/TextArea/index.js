@@ -3,32 +3,30 @@ import PropTypes from 'prop-types';
 import '../../public/fonts.scss';
 import './style.scss';
 
-const TextArea = ( {text, type, onPressed, disabled} ) => {
-    return(
-        <button 
-                type={ type } 
-                onClick={ () => onPressed() } 
-                disabled={ disabled }
-                className={ `button-text` }
-            > 
-                { text }
-        </button>
+const TextArea = ({ textAreaName, placeholder, disabled }) => {
+    return (
+        <div>
+            <span className="textarea-name">{textAreaName}</span>
+            <textarea
+                disabled={disabled}
+                className={`text-area`}
+                placeholder={placeholder}
+            >
+            </textarea>
+        </div>
     )
 }
 
 TextArea.defaultProps = {
-    type: "button",                
+    textAreaName: "Fieldtext Area",
+    placeholder: "Use this for description",
     disabled: false,
-    onPressed: () => {
-        alert('Selamat Datang')
-    },
 }
 
 TextArea.propTypes = {
-    text: PropTypes.string.isRequired,    
-    type: PropTypes.string,
-    disabled: PropTypes.bool,     
-    onPressed: PropTypes.func,
+    textAreaName: PropTypes.string.isRequired,
+    placeholder: PropTypes.string.isRequired,
+    disabled: PropTypes.bool,
 }
 
 export default TextArea;

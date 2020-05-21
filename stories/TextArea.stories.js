@@ -9,9 +9,9 @@ storiesOf('TextArea', module)
         }
     })
 
-    .add('default', () => (
+    .add('Default', () => (
         <div>
-            <TextArea text="Press ME!" />
+            <TextArea/>
         </div>
     ))
     
