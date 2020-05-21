@@ -1,9 +1,11 @@
 import HelloWorld from './components/HelloWorld'
-import Button from './components/Button'
+import Container from './components/Container'
+import ButtonText from './components/ButtonText'
 
 // registering export
 export {
     HelloWorld,
-    Button
+    Container,
+    ButtonText
 }
 
