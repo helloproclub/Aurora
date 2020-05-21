@@ -1,0 +1,10 @@
+@import '../../public/colors.scss';
+.button-outline{
+    /* Primary/Color Brand */
+    border: 1px solid #FC8412;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}

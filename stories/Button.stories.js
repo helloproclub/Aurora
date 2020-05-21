@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import '../src/public/fonts.scss';
 import GhostButton from '../src/components/ButtonGhost';
+import OutlineButton from '../src/components/ButtonOutline';
 
 storiesOf('Button', module)
     // use this for documentation
@@ -96,6 +97,46 @@ storiesOf('Button', module)
             <GhostButton text="GHOST BUTTON" design="witching-hour" size="small"></GhostButton>
             <GhostButton text="GHOST BUTTON" design="witching-hour" size="medium"></GhostButton>
             <GhostButton text="GHOST BUTTON" design="witching-hour" size="large"></GhostButton>
+        </div>
+    ))
+    .add('Ghost Outline Color Theme', () => (
+        <div>
+            <h2>Celestial</h2>
+            <OutlineButton text="GHOST BUTTON" design="celestial" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="celestial" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="celestial" size="large"></OutlineButton>
+            <h2>Meridian</h2>
+            <OutlineButton text="GHOST BUTTON" design="meridian" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="meridian" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="meridian" size="large"></OutlineButton>
+            <h2>By Design</h2>
+            <OutlineButton text="GHOST BUTTON" design="by-design" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="by-design" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="by-design" size="large"></OutlineButton>
+            <h2>Ultra violet</h2>
+            <OutlineButton text="GHOST BUTTON" design="ultra-violet" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="ultra-violet" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="ultra-violet" size="large"></OutlineButton>
+            <h2>Blue Ocean</h2>
+            <OutlineButton text="GHOST BUTTON" design="blue-ocean" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="blue-ocean" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="blue-ocean" size="large"></OutlineButton>
+            <h2>Sunrise</h2>
+            <OutlineButton text="GHOST BUTTON" design="sunrise" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="sunrise" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="sunrise" size="large"></OutlineButton>
+            <h2>Aubergin</h2>
+            <OutlineButton text="GHOST BUTTON" design="aubergin" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="aubergin" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="aubergin" size="large"></OutlineButton>
+            <h2>Twitch</h2>
+            <OutlineButton text="GHOST BUTTON" design="twitch" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="twitch" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="twitch" size="large"></OutlineButton>
+            <h2>Witching Hour</h2>
+            <OutlineButton text="GHOST BUTTON" design="witching-hour" size="small"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="witching-hour" size="medium"></OutlineButton>
+            <OutlineButton text="GHOST BUTTON" design="witching-hour" size="large"></OutlineButton>
         </div>
     ))
 

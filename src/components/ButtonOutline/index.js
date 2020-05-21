@@ -2,13 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style.scss";
 
-const ButtonGhost = ({ type, text, onPressed , disabled , design ,size}) => {
-    const className = `button-ghost`;
+const ButtonOutline = ({ type, text, onPressed , disabled , design ,size}) => {
+    const className = `button-outline`;
     return (
         <button 
         type={type}
         onClick={ () => onPressed() }  
-        className={`${className}-${design} ${size}` }
+        className={`${className} ${design} ${size}` }
         disabled={disabled}
         >
             {text}
@@ -16,7 +16,7 @@ const ButtonGhost = ({ type, text, onPressed , disabled , design ,size}) => {
     );
 };
 
-ButtonGhost.defaultProps = {
+ButtonOutline.defaultProps = {
     type: "button",
     disabled: false,
     design : "primary",
@@ -24,7 +24,7 @@ ButtonGhost.defaultProps = {
     onPressed: () => {},
 };
 
-ButtonGhost.propTypes = {
+ButtonOutline.propTypes = {
     type: PropTypes.string,
     children: PropTypes.element,
     disabled: PropTypes.bool,
@@ -33,4 +33,4 @@ ButtonGhost.propTypes = {
     size: PropTypes.string
 };
 
-export default ButtonGhost;
+export default ButtonOutline;
