@@ -1,3 +1,5 @@
+@import '../../public/colors.scss';
+
 .button-ghost{
   /* Background Color */
   background: #D5D5D5;
@@ -6,12 +8,13 @@
   border-radius: 8px;
 
 }
+//Color theme
 .primary{
   /* TipografiWhiteColor */
   color: #F6FDFF;
   //Button Selector
   &:active{
-    background: #FC8412;
+    background: $primary;
   }
 }
 
@@ -20,10 +23,34 @@
   color: #F6FDFF;
   //Button Selector
   &:active{
-    background: #209CF6;
+    background: $secondary;
   }
 }
 
+.secondary{
+  /* TipografiWhiteColor */
+  color: #F6FDFF;
+  //Button Selector
+  &:active{
+    background: $secondary;
+  }
+}
+.secondary{
+  /* TipografiWhiteColor */
+  color: #F6FDFF;
+  //Button Selector
+  &:active{
+    background: $secondary;
+  }
+}
+.secondary{
+  /* TipografiWhiteColor */
+  color: #F6FDFF;
+  //Button Selector
+  &:active{
+    background: $secondary;
+  }
+}
 .medium{
   font-style: normal;
   font-weight: 500;
