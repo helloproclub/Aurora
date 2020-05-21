@@ -1,55 +1,275 @@
 @import '../../public/colors.scss';
-
 .button-ghost{
   /* Background Color */
   background: #D5D5D5;
   /* Clickable Shadow */
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
-
+  /* TipografiWhiteColor */
+  color: $typography-white;
 }
 //Color theme
 .primary{
-  /* TipografiWhiteColor */
-  color: #F6FDFF;
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $primary;
+    }
+  }
   //Button Selector
   &:active{
     background: $primary;
   }
 }
 
+.primary-variant{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $primary-variant;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $primary-variant;
+  }
+}
+
 .secondary{
-  /* TipografiWhiteColor */
-  color: #F6FDFF;
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $secondary;
+    }
+  }
   //Button Selector
   &:active{
     background: $secondary;
   }
 }
 
-.secondary{
-  /* TipografiWhiteColor */
-  color: #F6FDFF;
+.secondary-variant{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $secondary-variant;
+    }
+  }
   //Button Selector
   &:active{
-    background: $secondary;
+    background: $secondary-variant;
   }
 }
-.secondary{
-  /* TipografiWhiteColor */
-  color: #F6FDFF;
+.success{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $success;
+    }
+  }
   //Button Selector
   &:active{
-    background: $secondary;
+    background: $success;
   }
 }
-.secondary{
-  /* TipografiWhiteColor */
-  color: #F6FDFF;
+.error{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $error;
+    }
+  }
   //Button Selector
   &:active{
-    background: $secondary;
+    background: $error;
   }
+}
+.warning{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $warning;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $warning;
+  }
+}
+.info{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $info;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $info;
+  }
+}
+
+.accent-purple{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $accent-purple;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $accent-purple;
+  }
+}
+
+.accent-lavender{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $accent-lavender;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $accent-lavender;
+  }
+}
+
+.accent-pink{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $accent-pink;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $accent-pink;
+  }
+}
+//Gradient
+.celestial{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $celestial;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $celestial;
+  }
+}
+
+.meridian{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $meridian;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $meridian;
+  }
+}
+.by-design{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $by-design;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $by-design;
+  }
+}
+.ultra-violet{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $ultra-violet;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $ultra-violet;
+  }
+}
+.blue-ocean{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $blue-ocean;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $blue-ocean;
+  }
+}
+.sunrise{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $sunrise;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $sunrise;
+  }
+}
+
+.aubergin{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $aubergin;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $aubergin;
+  }
+}
+
+.twitch{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $twitch;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $twitch;
+  }
+}
+
+.witching-hour{
+  &-black{
+    color: $typography-black;
+    &:active{
+      background: $witching-hour;
+    }
+  }
+  //Button Selector
+  &:active{
+    background: $witching-hour;
+  }
+}
+
+//Button Size
+.small{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 173px;
+  height: 40px;
 }
 .medium{
   font-style: normal;
@@ -59,4 +279,13 @@
   letter-spacing: 0.02em;
   width: 173px;
   height: 48px;
+}
+.large{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 173px;
+  height: 56px;
 }
