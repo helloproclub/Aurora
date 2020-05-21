@@ -1,10 +1,406 @@
 @import '../../public/colors.scss';
 .button-outline{
-    /* Primary/Color Brand */
-    border: 1px solid #FC8412;
-    box-sizing: border-box;
-    /* Clickable Shadow */
+  //Color theme
+  &-primary{
+        /* Background Color */
+        background: transparent;
+        border-color: $primary;
+        /* Primary/Color Brand */
+        border: 1px solid $primary;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $primary;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-primary-variant{
+        /* Background Color */
+        background: transparent;
+        border-color: $primary-variant;
+        /* Primary/Color Brand */
+        border: 1px solid $primary-variant;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $primary-variant;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-secondary{
+        /* Background Color */
+        background: transparent;
+        border-color: $secondary;
+        /* Primary/Color Brand */
+        border: 1px solid $secondary;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $secondary;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-secondary-variant{
+        /* Background Color */
+        background: transparent;
+        border-color: $secondary-variant;
+        /* Primary/Color Brand */
+        border: 1px solid $secondary-variant;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $secondary-variant;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-success{
+        /* Background Color */
+        background: transparent;
+        border-color: $success;
+        /* Primary/Color Brand */
+        border: 1px solid $success;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $success;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-error{
+        /* Background Color */
+        background: transparent;
+        border-color: $error;
+        /* Primary/Color Brand */
+        border: 1px solid $error;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $error;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-warning{
+        /* Background Color */
+        background: transparent;
+        border-color: $warning;
+        /* Primary/Color Brand */
+        border: 1px solid $warning;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $warning;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-info{
+        /* Background Color */
+        background: transparent;
+        border-color: $info;
+        /* Primary/Color Brand */
+        border: 1px solid $info;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $info;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-accent-purple{
+        /* Background Color */
+        background: transparent;
+        border-color: $accent-purple;
+        /* Primary/Color Brand */
+        border: 1px solid $accent-purple;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $accent-purple;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-accent-lavender{
+        /* Background Color */
+        background: transparent;
+        border-color: $accent-lavender;
+        /* Primary/Color Brand */
+        border: 1px solid $accent-lavender;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $accent-lavender;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-accent-pink{
+        /* Background Color */
+        background: transparent;
+        border-color: $accent-pink;
+        /* Primary/Color Brand */
+        border: 1px solid $accent-pink;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $accent-pink;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  //Gradient
+  &-celestial{
+        background: transparent;
+        /* Primary/Color Brand */
+        border-top: 1px solid #C33764;
+        border-bottom: 1px solid #1D2671;
+        border-left: 1px solid #1D2671;
+        border-right: 1px solid #C33764;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: #1D2671;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-meridian{
+        /* Background Color */
+        background: transparent;
+        border-color: $meridian;
+        /* Primary/Color Brand */
+        border: 1px solid $meridian;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $meridian;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-by-design{
+        /* Background Color */
+        background: transparent;
+        border-color: $by-design;
+        /* Primary/Color Brand */
+        border: 1px solid $by-design;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $by-design;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-ultra-violet{
+        /* Background Color */
+        background: transparent;
+        border-color: $ultra-violet;
+        /* Primary/Color Brand */
+        border: 1px solid $ultra-violet;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $ultra-violet;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-blue-ocean{
+        /* Background Color */
+        background: transparent;
+        border-color: $blue-ocean;
+        /* Primary/Color Brand */
+        border: 1px solid $blue-ocean;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $blue-ocean;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  &-sunrise{
+        /* Background Color */
+        background: transparent;
+        border-color: $sunrise;
+        /* Primary/Color Brand */
+        border: 1px solid $sunrise;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $sunrise;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-aubergin{
+        /* Background Color */
+        background: transparent;
+        border-color: $aubergin;
+        /* Primary/Color Brand */
+        border: 1px solid $aubergin;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $aubergin;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-twitch{
+        /* Background Color */
+        background: transparent;
+        border-color: $twitch;
+        /* Primary/Color Brand */
+        border: 1px solid $twitch;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $twitch;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+  
+  &-witching-hour{
+        /* Background Color */
+        background: transparent;
+        border-color: $witching-hour;
+        /* Primary/Color Brand */
+        border: 1px solid $witching-hour;
+        box-sizing: border-box;
+        /* Clickable Shadow */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        /* Tipografi */
+        color: $witching-hour;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+  }
+}
 
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
+
+
+//Button Size
+.small{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 170px;
+  height: 40px;
+}
+.medium{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 170px;
+  height: 48px;
+}
+.large{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 170px;
+  height: 56px;
 }

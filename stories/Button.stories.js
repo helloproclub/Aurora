@@ -99,7 +99,55 @@ storiesOf('Button', module)
             <GhostButton text="GHOST BUTTON" design="witching-hour" size="large"></GhostButton>
         </div>
     ))
-    .add('Ghost Outline Color Theme', () => (
+    .add('Button Outline Color Theme', () => (
+        <div>
+            <h2>Primary</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="primary" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="primary" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="primary" size="large"></OutlineButton>
+            <h2>Primary Variant</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="primary-variant" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="primary-variant" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="primary-variant" size="large"></OutlineButton>
+            <h2>Secondary</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="secondary" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="secondary" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="secondary" size="large"></OutlineButton>
+            <h2>Secondary Variant</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="secondary-variant" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="secondary-variant" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="secondary-variant" size="large"></OutlineButton>
+            <h2>Success</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="success" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="success" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="success" size="large"></OutlineButton>
+            <h2>Error</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="error" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="error" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="error" size="large"></OutlineButton>
+            <h2>Warning</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="warning" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="warning" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="warning" size="large"></OutlineButton>
+            <h2>Info</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="info" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="info" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="info" size="large"></OutlineButton>
+            <h2>Accenct Purple</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-purple" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-purple" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-purple" size="large"></OutlineButton>
+            <h2>Accenct Lavender</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-lavender" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-lavender" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-lavender" size="large"></OutlineButton>
+            <h2>Accenct Pink</h2>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-pink" size="small"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-pink" size="medium"></OutlineButton>
+            <OutlineButton text="OUTLINE BUTTON" design="accent-pink" size="large"></OutlineButton>
+        </div>
+    ))
+    .add('Outline Button Gradient', () => (
         <div>
             <h2>Celestial</h2>
             <OutlineButton text="GHOST BUTTON" design="celestial" size="small"></OutlineButton>

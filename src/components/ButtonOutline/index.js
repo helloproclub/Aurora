@@ -8,7 +8,7 @@ const ButtonOutline = ({ type, text, onPressed , disabled , design ,size}) => {
         <button 
         type={type}
         onClick={ () => onPressed() }  
-        className={`${className} ${design} ${size}` }
+        className={`${className}-${design} ${size}` }
         disabled={disabled}
         >
             {text}
