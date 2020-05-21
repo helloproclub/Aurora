@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import '../src/public/fonts.scss';
 import GhostButton from '../src/components/ButtonGhost';
 
 storiesOf('Button', module)
@@ -9,10 +10,10 @@ storiesOf('Button', module)
             source: true
         }
     })
-    .add('Ghost default', () => (
+    .add('Ghost Button', () => (
         <div>
-            
             <GhostButton text="GHOST BUTTON"></GhostButton>
+            <GhostButton text="GHOST BUTTON" design="secondary"></GhostButton>
         </div>
     ))
 

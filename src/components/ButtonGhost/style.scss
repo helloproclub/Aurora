@@ -1,22 +1,35 @@
 .button-ghost{
-    border: 1px solid #757575;
-    box-sizing: border-box;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
+  /* Background Color */
+  background: #D5D5D5;
+  /* Clickable Shadow */
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    padding: 24px 32px;
-
+}
+.primary{
+  /* TipografiWhiteColor */
+  color: #F6FDFF;
   //Button Selector
-  &:hover{
-    background: rgba(202, 202, 202, 0.5);
-  }
   &:active{
-    background: #CACACA;
+    background: #FC8412;
   }
+}
+
+.secondary{
+  /* TipografiWhiteColor */
+  color: #F6FDFF;
+  //Button Selector
+  &:active{
+    background: #209CF6;
+  }
+}
+
+.medium{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 173px;
+  height: 48px;
 }
