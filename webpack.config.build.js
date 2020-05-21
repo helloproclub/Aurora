@@ -1,5 +1,5 @@
 var path = require("path");
-const base = require('./webpack.config.base')
+const base = require("./webpack.config.base");
 
 module.exports = {
     entry: "./src/index.js",
@@ -13,12 +13,11 @@ module.exports = {
             ...base.module.rules,
             {
                 test: /\.scss$/,
-                loaders: ["style-loader", "css-loader", "sass-loader"],
-            },
+                loaders: ["style-loader", "css-loader", "sass-loader"]
+            }
         ]
     },
     externals: {
         react: "commonjs react"
     }
 };
-
