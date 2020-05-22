@@ -1,0 +1,401 @@
+@import '../../public/colors.scss';
+.btn{
+  width: 170px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.button-ghost{
+  &-primary{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $primary;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $primary;
+    }
+  }
+  &-primary-variant{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $primary-variant;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $primary-variant;
+    }
+  }
+  
+  &-secondary{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $secondary;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $secondary;
+    }
+  }
+  
+  &-secondary-variant{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $secondary-variant;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $secondary-variant;
+    }
+  }
+  &-success{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $success;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $success;
+    }
+  }
+  &-error{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $error;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $error;
+    }
+  }
+  &-warning{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $warning;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $warning;
+    }
+  }
+  &-info{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $info;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $info;
+    }
+  }
+  
+  &-accent-purple{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $accent-purple;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $accent-purple;
+    }
+  }
+  
+  &-accent-lavender{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $accent-lavender;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $accent-lavender;
+    }
+  }
+  
+  &-accent-pink{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $accent-pink;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $accent-pink;
+    }
+  }
+  //Gradient
+  &-celestial{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $celestial;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $celestial;
+    }
+  }
+  
+  &-meridian{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $meridian;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $meridian;
+    }
+  }
+  &-by-design{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $by-design;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $by-design;
+    }
+  }
+  &-ultra-violet{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $ultra-violet;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $ultra-violet;
+    }
+  }
+  &-blue-ocean{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $blue-ocean;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $blue-ocean;
+    }
+  }
+  &-sunrise{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $sunrise;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $sunrise;
+    }
+  }
+  
+  &-aubergin{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $aubergin;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $aubergin;
+    }
+  }
+  
+  &-twitch{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $twitch;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $twitch;
+    }
+  }
+  
+  &-witching-hour{
+    /* Background Color */
+    background: #D5D5D5;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $typography-white;
+    &-black{
+      color: $typography-black;
+      &:active{
+        background: $witching-hour;
+      }
+    }
+    //Button Selector
+    &:active{
+      background: $witching-hour;
+    }
+  }
+}

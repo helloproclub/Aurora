@@ -16,7 +16,12 @@
         "type": "git",
         "url": "git+https://github.com/helloproclub/Pinoccio.git"
     },
-    "keywords": ["design", "system", "react", "component"],
+    "keywords": [
+        "design",
+        "system",
+        "react",
+        "component"
+    ],
     "author": "blinfoldking",
     "license": "MIT",
     "bugs": {
