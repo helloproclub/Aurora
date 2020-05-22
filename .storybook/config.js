@@ -4,6 +4,7 @@ import { withInfo } from '@storybook/addon-info';
 
 
 function loadStories() {
+    require('../stories/Typography.stories');
     require('../stories/HelloWorld.stories');
     require('../stories/Container.stories');
     require('../stories/ButtonText.stories');
