@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import '../src/public/fonts.scss';
 import OutlineButton from '../src/components/ButtonOutline';
 
-storiesOf('Button Ghost', module)
+storiesOf('Button Outline', module)
     // use this for documentation
     .addParameters({
         info: {

@@ -30,3 +30,4 @@ ButtonOutline.propTypes = {
     onPressed: PropTypes.func,
     design: PropTypes.string
 };
+export default ButtonOutline;
