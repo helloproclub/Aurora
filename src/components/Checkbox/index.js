@@ -5,34 +5,29 @@ import './style.scss';
 
 
 
-const Checkbox = ({ text, type, onPressed, disabled }) => {
+const Checkbox = ({ text, type, disabled, checked }) => {
     return (
-        <div>
-            <button
+        <label className="container-checkbox">{text}
+            <input
                 type={type}
-                onClick={() => onPressed()}
+                checked={checked}
+                value={text}
                 disabled={disabled}
-                className={`button-text`}
-            >
-                {text}
-            </button>
-        </div>
+            />
+            <span className="checkmark"></span>
+        </label>
     )
 }
 
 Checkbox.defaultProps = {
-    type: "button",
-    disabled: false,
-    onPressed: () => {
-        alert('Selamat Datang')
-    },
+    text: "Value",
+    type: "checkbox",
 }
 
 Checkbox.propTypes = {
     text: PropTypes.string.isRequired,
     type: PropTypes.string,
-    disabled: PropTypes.bool,
-    onPressed: PropTypes.func,
+    checked: PropTypes.string,
 }
 
 export default Checkbox;

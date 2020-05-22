@@ -11,7 +11,9 @@ storiesOf('Checkbox', module)
 
     .add('default', () => (
         <div>
-            <Checkbox text="Press ME!" />
+        <Checkbox text="Choose"/>
+        <Checkbox text="Choose" classname="checkbox-disabled" disabled="disabled"/>
+        <Checkbox text="Choose" checked/>
         </div>
     ))
     
