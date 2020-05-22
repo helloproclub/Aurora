@@ -1,0 +1,232 @@
+@import '../../public/colors.scss';
+.btn{
+    width: 170px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.button-outline{
+      //Color theme
+  &-primary{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $primary;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $primary;
+  }
+  &-primary-variant{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $primary-variant;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $primary-variant;
+  }
+  
+  &-secondary{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $secondary;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $secondary;
+  }
+  
+  &-secondary-variant{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $secondary-variant;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $secondary-variant;
+  }
+  &-success{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $success;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $success;
+  }
+  &-error{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $error;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $error;
+  }
+  &-warning{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $warning;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $warning;
+  }
+  &-info{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $info;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $info;
+  }
+  
+  &-accent-purple{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $accent-purple;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $accent-purple;
+  }
+  
+  &-accent-lavender{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $accent-lavender;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $accent-lavender;
+  }
+  
+  &-accent-pink{
+    /* Background Color */
+    background-color: transparent;
+    border: 1px solid $accent-pink;
+    box-sizing: border-box;
+    /* Clickable Shadow */
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* TipografiWhiteColor */
+    color: $accent-pink;
+  }
+  //Gradient
+  &-celestial{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $celestial;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #C33764;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  &-meridian{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $meridian;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #283C86;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  &-by-design{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $by-design;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #009FFF;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  &-ultra-violet{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $ultra-violet;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #654EA3;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  &-blue-ocean{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $blue-ocean;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #373B44;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  &-sunrise{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $sunrise;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #FE8C00;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  &-aubergin{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $aubergin;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #AA076B;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  &-twitch{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $twitch;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #6441A5;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  &-witching-hour{
+    background-color : transparent;
+    border: 1px solid white;
+    border-image-source : $witching-hour;
+    border-image-slice : 4;
+    border-radius: 8px;
+    color: #C31432;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+}

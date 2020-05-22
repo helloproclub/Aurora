@@ -10,6 +10,7 @@ function loadStories() {
     require('../stories/ButtonText.stories');
     require('../stories/ButtonGroup.stories');
     require('../stories/ButtonGhost.stories');
+    require('../stories/ButtonOutline.stories');
 }
 
 addDecorator(withInfo)
