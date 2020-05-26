@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "pinoccio",
   "version": "1.0.0",
   "description": "Proclub Design System written in React; may you bring your idea to life",
@@ -10,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.build.js",
+    "build-storybook": "build-storybook -c .storybook -o dist",
     "storybook": "start-storybook"
   },
   "repository": {
@@ -45,12 +45,6 @@
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^6.0.0",
     "node-sass": "^4.11.0",
@@ -61,57 +55,4 @@
     "ttf-loader": "^1.0.2",
     "webpack-cli": "^3.2.3"
   }
-=======
-    "name": "pinoccio",
-    "version": "1.0.0",
-    "description": "Proclub Design System written in React; may you bring your idea to life",
-    "main": "build/index.js",
-    "engines": {
-        "node": ">=12.16.2"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --config webpack.config.build.js",
-        "build-storybook": "build-storybook -c .storybook -o dist",
-        "storybook": "start-storybook"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/helloproclub/Pinoccio.git"
-    },
-    "keywords": ["design", "system", "react", "component"],
-    "author": "blinfoldking",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/helloproclub/Pinoccio/issues"
-    },
-    "homepage": "https://github.com/helloproclub/Pinoccio#readme",
-    "dependencies": {
-        "create-react-app": "^2.1.8",
-        "prop-types": "^15.7.2",
-        "react": "^16.8.4",
-        "react-dom": "^16.8.4",
-        "webpack": "^4.29.6"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.3.4",
-        "@babel/plugin-proposal-class-properties": "^7.3.4",
-        "@babel/preset-env": "^7.3.4",
-        "@babel/preset-react": "^7.0.0",
-        "@storybook/addon-info": "^5.0.1",
-        "@storybook/react": "^5.0.1",
-        "babel-cli": "^6.26.0",
-        "babel-loader": "^8.0.5",
-        "css-loader": "^2.1.1",
-        "extract-text-webpack-plugin": "^3.0.2",
-        "file-loader": "^6.0.0",
-        "node-sass": "^4.11.0",
-        "react-scripts": "^3.4.1",
-        "sass-loader": "^7.1.0",
-        "storybook": "^5.3.18",
-        "style-loader": "^0.23.1",
-        "ttf-loader": "^1.0.2",
-        "webpack-cli": "^3.2.3"
-    }
->>>>>>> upstream/master
 }
