@@ -1,0 +1,166 @@
+@import "../../public/colors.scss";
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.palette {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.background {
+
+    &-default {
+        background-color: $default;
+    }
+
+    // Color palette
+    &-gray {
+        background-color: $gray;
+    }
+
+    &-aqua {
+        background-color: $aqua;
+    }
+
+    &-green {
+        background-color: $green;
+    }
+
+    &-purple {
+        background-color: $purple;
+    }
+
+    &-orange {
+        background-color: $orange;
+    }
+
+    &-red {
+        background-color: $red;
+    }
+
+    &-black {
+        background-color: $black;
+    }
+
+    &-white {
+        background-color: $white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &-blue {
+        background-color: $blue;
+    }
+
+    &-lavender {
+        background-color: $lavender;
+    }
+
+    &-yellow {
+        background-color: $yellow;
+    }
+
+    &-pink {
+        background-color: $pink;
+    }
+
+    // color theme
+    &-primary {
+        background-color: $primary;
+    }
+
+    &-primary-variant {
+        background-color: $primary-variant;
+    }
+
+    &-secondary {
+        background-color: $secondary;
+    }
+
+    &-secondary-variant {
+        background-color: $secondary-variant;
+    }
+
+    &-success {
+        background-color: $success;
+    }
+
+    &-error {
+        background-color: $error;
+    }
+
+    &-warning {
+        background-color: $warning;
+    }
+
+    &-info {
+        background-color: $info;
+    }
+
+    &-accent-purple {
+        background-color: $accent-purple;
+    }
+
+    &-accent-lavender {
+        background-color: $accent-lavender;
+    }
+
+    &-accent-pink {
+        background-color: $accent-pink;
+    }
+
+    &-typography-black {
+        background-color: $typography-black;
+    }
+
+    &-typography-white {
+        background-color: $typography-white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &-typography-disable {
+        background-color: $typography-disable;
+    }
+
+    // color gradient
+    &-celestial {
+        background: $celestial;
+    }
+
+    &-meridian {
+        background: $meridian;
+    }
+
+    &-by-design {
+        background: $by-design;
+    }
+
+    &-ultra-violet {
+        background: $ultra-violet;
+    }
+
+    &-blue-ocean {
+        background: $blue-ocean;
+    }
+
+    &-sunrise {
+        background: $sunrise;
+    }
+
+    &-aubergin {
+        background: $aubergin;
+    }
+
+    &-twitch {
+        background: $twitch;
+    }
+
+    &-witching-hour {
+        background: $witching-hour;
+    }
+}
