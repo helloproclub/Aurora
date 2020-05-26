@@ -41,6 +41,7 @@ storiesOf('Container', module)
             <Container backgroundColor="background-accent-pink"></Container>
             <Container backgroundColor="background-typography-black"></Container>
             <Container backgroundColor="background-typography-white"></Container>
+            <Container backgroundColor="background-typography-border"></Container>
             <Container backgroundColor="background-typography-disable"></Container>
         </div>
     ))
