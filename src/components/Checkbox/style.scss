@@ -1,0 +1,72 @@
+@import "../../public/colors.scss";
+.container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    user-select: none;
+    padding-top: 4px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: $typography-black;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 8px 0px;
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+
+        &:disabled ~ .checkmark {
+            background-color: $typography-disable;
+        }
+        &:checked ~ .checkmark {
+            background-color: $accent-lavender;
+        }
+        &:checked ~ .checkmark:after {
+            display: block;
+        }
+    }
+
+    .checkmark:after {
+        left: 7px;
+        top: 2px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: $typography-white;
+    border: 2px solid $typography-border;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: center;
+
+    &:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+}
