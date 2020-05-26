@@ -9,6 +9,7 @@ function loadStories() {
     require('../stories/Container.stories');
     require('../stories/ButtonText.stories');
     require('../stories/ButtonGroup.stories');
+    require('../stories/Checkbox.stories');
 }
 
 addDecorator(withInfo)
