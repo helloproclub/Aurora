@@ -8,6 +8,7 @@ function loadStories() {
     require('../stories/Container.stories');
     require('../stories/ButtonText.stories');
     require('../stories/ButtonGroup.stories');
+    require("../stories/ButtonFilled.stories")
 }
 
 addDecorator(withInfo)

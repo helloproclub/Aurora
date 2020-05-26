@@ -2,15 +2,15 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import ButtonFilled from "../src/components/ButtonFilled";
 
-storiesOf("Button", module)
+storiesOf("Button Filled", module)
     // use this for documentation
     .addParameters({
         info: {
             source: true,
         },
     })
-    .add("Filled", () => (
+    .add("default", () => (
         <div>
-            <ButtonFilled>PRESS ME</ButtonFilled>
+            <ButtonFilled onPressed={() => alert("Pressed!")}>FILLED BUTTON</ButtonFilled>
         </div>
     ));
