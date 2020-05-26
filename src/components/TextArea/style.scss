@@ -2,16 +2,16 @@
 
 .textarea-name{
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0.1px;
-color: $typography-border;
-flex: none;
-order: 0;
-align-self: flex-start;
-margin: 0px 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: $typography-border;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 0px 4px;
 }
 
 .text-area {
@@ -31,4 +31,10 @@ margin: 0px 4px;
     align-self: center;
     margin: 0px 4px;
     background: $typography-white;
+
+    color: $typography-border;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
 }
