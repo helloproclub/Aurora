@@ -1,19 +1,19 @@
 @import '../../public/colors.scss';
 
 .button-text {
-    font-size: 14px;    
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.75px;        
+    font-weight: 500;    
     border-style: none;
     outline: none;
-    background-color: white;    
+    background-color: $white;    
     cursor: pointer;
 
     &:hover {
         color: $primary-variant;
     }
-    &:focus {
+    &:active {
         color: $secondary-variant;
     }
 }
