@@ -11,6 +11,7 @@ function loadStories() {
     require('../stories/ButtonGroup.stories');
     require("../stories/ButtonFilled.stories")
     require('../stories/Checkbox.stories');
+    require('../stories/InputText.stories');
 }
 
 addDecorator(withInfo)
