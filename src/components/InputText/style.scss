@@ -1,0 +1,54 @@
+@import '../../public/colors.scss';
+
+.input-field {
+    display: flex;        
+    flex-direction: column;
+    color: $typography-border;
+    width: 40%;
+
+    & input {
+        margin: 4px 0px;
+        display: block;
+        width: 356px;
+        height: 42px;
+        box-sizing: border-box;        
+        padding: 10px 10px;
+        background-color: $white;
+        border-radius: 4px;
+        outline: none;
+        font-size: 14px;    
+        line-height: 22px;
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+
+        &.default {
+            border: 1px solid $typography-border;
+        }
+
+        &.focus {
+            border: 1px solid $secondary;
+            color: $typography-black;
+            // box-shadow: 0px 4px 20px rgba(169, 169, 169, 0.25);
+        }
+    }
+
+    & input:focus {
+        border: 1px solid #209CF6;
+        color: $typography-black;
+        // box-shadow: 0px 4px 20px rgba(169, 169, 169, 0.25);
+    }
+ 
+    & .info-text {
+        display: flex;                
+        font-size: 12px;
+    
+        & p {
+            margin: 0px;
+        }
+
+        & p:nth-child(2){
+            margin: 0px 5px;
+        }
+    
+    }
+}
