@@ -10,9 +10,8 @@ function loadStories() {
     require('../stories/ButtonText.stories');
     require('../stories/ButtonGroup.stories');
     require('../stories/TextArea.stories');
-    require("../stories/ButtonFilled.stories")
     require('../stories/Checkbox.stories');
-    require('../stories/InputText.stories');
+    require("../stories/ButtonFilled.stories");
 }
 
 addDecorator(withInfo)

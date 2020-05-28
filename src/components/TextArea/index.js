@@ -4,21 +4,25 @@ import '../../public/fonts.scss';
 import './style.scss';
 
 const TextArea = ({ textAreaName, placeholder, disabled }) => {
-    return (
-        <div>
-            <span className="textarea-name">{textAreaName}</span>
-            <textarea
-                disabled={disabled}
-                className={`text-area`}
-                placeholder={placeholder}
-            >
-            </textarea>
-        </div>
-    )
+    if(textAreaName !== undefined){
+        return (
+            <div>
+                <span className="textarea-name">{textAreaName}</span>
+                <textarea
+                    disabled={disabled}
+                    className={`text-area`}
+                    placeholder={placeholder}
+                >
+                </textarea>
+            </div>
+        )
+    }else{
+        return <span className="textarea-name">You need to add textAreaName prop to use this!</span>
+    }
 }
 
 TextArea.defaultProps = {
-    textAreaName: "Fieldtext Area",
+    // textAreaName: "Fieldtext Area",
     placeholder: "Use this for description",
     disabled: false,
 }
