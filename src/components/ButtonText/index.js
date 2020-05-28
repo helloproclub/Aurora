@@ -1,17 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../../public/fonts.scss';
+import '../../public/font-color.scss';
 import './style.scss';
 
 
 
-const ButtonText = ( {text, type, onPressed, disabled} ) => {
+const ButtonText = ( {text, type, onPressed, disabled, size, color} ) => {
     return(
         <button 
                 type={ type } 
                 onClick={ () => onPressed() } 
                 disabled={ disabled }
-                className={ `button-text` }
+                className={ `button-text --size-${size} font-${color}` }
             > 
                 { text }
         </button>
@@ -24,6 +25,8 @@ ButtonText.defaultProps = {
     onPressed: () => {
         alert('Selamat Datang')
     },
+    color: "default",
+    size: "medium",
 }
 
 ButtonText.propTypes = {
