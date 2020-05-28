@@ -11,7 +11,7 @@ storiesOf('TextArea', module)
 
     .add('Default', () => (
         <div>
-            <TextArea/>
+            <TextArea textAreaName="Description"/>
         </div>
     ))
     
