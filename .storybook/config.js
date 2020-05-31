@@ -12,6 +12,7 @@ function loadStories() {
     require("../stories/ButtonFilled.stories")
     require('../stories/Checkbox.stories');
     require('../stories/InputText.stories');
+    require('../stories/InputRadioBox.stories');
 }
 
 addDecorator(withInfo)
