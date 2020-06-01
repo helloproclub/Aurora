@@ -13,6 +13,8 @@ function loadStories() {
     require('../stories/ButtonOutline.stories');
     require("../stories/ButtonFilled.stories");
     require('../stories/Checkbox.stories');
+    require('../stories/InputText.stories');
+    require('../stories/InputRadioBox.stories');
     require("../stories/ButtonFilled.stories");
 }
 
