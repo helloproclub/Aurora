@@ -1,0 +1,73 @@
+@import '../../public/colors.scss';
+
+.input-radio {
+    display: table-cell;
+    vertical-align: middle;    
+    position: relative;
+    height: 24px;
+    padding-left: 35px;    
+    padding-bottom: 7px;
+    font-size: 14px;
+    line-height: 22px;
+    color: $typography-black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    & input {
+        position: absolute;        
+        cursor: pointer;
+        z-index: 1;
+        opacity: 0;
+        left: -4px;
+        top: -2px;
+        height: 24px;
+        width: 24px;        
+    }    
+
+    & .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        background-color: $white;
+        border-radius: 50%;
+        border: 2px solid $typography-border;
+        box-sizing: border-box;
+    }
+    & input:disabled ~ .checkmark {
+        border-color: $typography-disable;        
+    }
+
+    & input:disabled ~ .radio-name {
+        color: $typography-disable;
+    }    
+
+    & input:checked ~ .checkmark {
+        background-color: $white;
+        border-color: $accent-lavender;
+    }
+    
+    & .small-checkmark {
+        content: "";
+        position: absolute;        
+        top: 6px;
+        left: 6px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        opacity: 0;
+        transform: scale(0);
+        background: $accent-lavender;        
+        transition: all 0.2s ease;
+    }
+    
+    & input:checked ~ .small-checkmark {
+        display: block;
+        opacity: 1;
+        transform: scale(1);        
+    }
+}    
+  

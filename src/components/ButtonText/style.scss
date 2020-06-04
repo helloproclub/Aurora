@@ -1,0 +1,19 @@
+@import '../../public/colors.scss';
+
+.button-text {
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.75px;        
+    font-weight: 500;    
+    border-style: none;
+    outline: none;
+    background-color: $white;    
+    cursor: pointer;
+
+    &:hover {
+        color: $primary-variant;
+    }
+    &:active {
+        color: $secondary-variant;
+    }
+}
