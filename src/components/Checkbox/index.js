@@ -5,13 +5,12 @@ import './style.scss';
 
 
 
-const Checkbox = ({ text, type, disabled, checked }) => {
+const Checkbox = ({ type, disabled, checked }) => {
     return (
-        <label className="container-checkbox">{text}
+        <label className="container-checkbox">
             <input
                 type={type}
                 checked={checked}
-                value={text}
                 disabled={disabled}
             />
             <span className="checkmark"></span>
@@ -20,12 +19,10 @@ const Checkbox = ({ text, type, disabled, checked }) => {
 }
 
 Checkbox.defaultProps = {
-    text: "Value",
     type: "checkbox",
 }
 
 Checkbox.propTypes = {
-    text: PropTypes.string.isRequired,
     type: PropTypes.string,
     checked: PropTypes.string,
 }
