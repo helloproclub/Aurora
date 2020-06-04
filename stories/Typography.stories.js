@@ -104,8 +104,8 @@ storiesOf('Typography', module)
     ))
     .add('button', () => (
         <div>
-            <p className="button-txt">Button</p>
-            <p className="button-txt italic">Button Italic</p>
+            <p className="button-txt">BUTTON</p>
+            <p className="button-txt italic">BUTTON Italic</p>
         </div>
     ))
     .add('body 2', () => (
@@ -122,8 +122,8 @@ storiesOf('Typography', module)
     ))
     .add('overline', () => (
         <div>
-            <p className="overline">Overline</p>
-            <p className="caption italic">Overline italic</p>
+            <p className="overline">OVERLINE</p>
+            <p className="caption italic">OVERLINE italic</p>
         </div>
     ))
     .add('strong and important', () => (
