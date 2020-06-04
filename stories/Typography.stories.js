@@ -22,7 +22,6 @@ storiesOf('Typography', module)
             <h1 className="bold">Bold</h1>
             <h1 className="extrabold">Extrabold</h1>
             <h1 className="italic">Italic</h1>
-            <h1 className="italic-regular">Italic Regular</h1>
             <h1 className="italic-semibold">Italic Semibold</h1>
             <h1 className="italic-bold">Italic Bold</h1>
             <h1 className="italic-extrabold">Italic Extrabold</h1>
@@ -36,7 +35,6 @@ storiesOf('Typography', module)
             <h2 className="bold">Bold</h2>
             <h2 className="extrabold">Extrabold</h2>
             <h2 className="italic">Italic</h2>
-            <h2 className="italic-regular">Italic Regular</h2>
             <h2 className="italic-semibold">Italic Semibold</h2>
             <h2 className="italic-bold">Italic Bold</h2>
             <h2 className="italic-extrabold">Italic Extrabold</h2>
@@ -50,7 +48,6 @@ storiesOf('Typography', module)
             <h3 className="bold">Bold</h3>
             <h3 className="extrabold">Extrabold</h3>
             <h3 className="italic">Italic</h3>
-            <h3 className="italic-regular">Italic Regular</h3>
             <h3 className="italic-semibold">Italic Semibold</h3>
             <h3 className="italic-bold">Italic Bold</h3>
             <h3 className="italic-extrabold">Italic Extrabold</h3>
@@ -64,7 +61,6 @@ storiesOf('Typography', module)
             <h4 className="bold">Bold</h4>
             <h4 className="extrabold">Extrabold</h4>
             <h4 className="italic">Italic</h4>
-            <h4 className="italic-regular">Italic Regular</h4>
             <h4 className="italic-semibold">Italic Semibold</h4>
             <h4 className="italic-bold">Italic Bold</h4>
             <h4 className="italic-extrabold">Italic Extrabold</h4>
@@ -78,7 +74,6 @@ storiesOf('Typography', module)
             <h5 className="bold">Bold</h5>
             <h5 className="extrabold">Extrabold</h5>
             <h5 className="italic">Italic</h5>
-            <h5 className="italic-regular">Italic Regular</h5>
             <h5 className="italic-semibold">Italic Semibold</h5>
             <h5 className="italic-bold">Italic Bold</h5>
             <h5 className="italic-extrabold">Italic Extrabold</h5>
