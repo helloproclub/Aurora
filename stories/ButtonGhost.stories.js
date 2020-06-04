@@ -16,3 +16,8 @@ storiesOf('Button Ghost', module)
             <GhostButton text="GHOST BUTTON"></GhostButton>
         </div>
     ))
+    .add('Ghost Button Active', () => (
+        <div>
+            <GhostButton text="GHOST BUTTON" style="background:#FC8412;"></GhostButton>
+        </div>
+    ))

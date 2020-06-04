@@ -122,40 +122,48 @@ storiesOf('Typography', module)
     .add('body big', () => (
         <div>
             <p className="body-big">Body Big</p>
-            <p className="body-big">Body Big</p>
+            <p className="body-big italic">Body Big Italic</p>
         </div>
     ))
-    .add('italic-bold', () => (
+    .add('body 1', () => (
         <div>
-            <p className="article italic-bold">Article Title</p>
-            <h1 className="italic-bold">h1</h1>
-            <h2 className="italic-bold">h2</h2>
-            <h3 className="italic-bold">h3</h3>
-            <h4 className="italic-bold">h4</h4>
-            <h5 className="italic-bold">h5</h5>
-            <p className="body-big italic-bold">Body Big</p>
-            <p className="body-1 italic-bold">Body 1</p>
-            <p className="subtitle italic-bold">Subtitle</p>
-            <p className="button italic-bold">Button</p>
-            <p className="body-2 italic-bold">Body 2</p>
-            <p className="caption italic-bold">Caption</p>
-            <p className="overline italic-bold">Overline</p>
+            <p className="body-1">Body 1</p>
+            <p className="body-1 italic">Body 1 italic</p>
         </div>
     ))
-    .add('italic-extrabold', () => (
+    .add('subtitle', () => (
         <div>
-            <p className="article italic-extrabold">Article Title</p>
-            <h1 className="italic-extrabold">h1</h1>
-            <h2 className="italic-extrabold">h2</h2>
-            <h3 className="italic-extrabold">h3</h3>
-            <h4 className="italic-extrabold">h4</h4>
-            <h5 className="italic-extrabold">h5</h5>
-            <p className="body-big italic-extrabold">Body Big</p>
-            <p className="body-1 italic-extrabold">Body 1</p>
-            <p className="subtitle italic-extrabold">Subtitle</p>
-            <p className="button italic-extrabold">Button</p>
-            <p className="body-2 italic-extrabold">Body 2</p>
-            <p className="caption italic-extrabold">Caption</p>
-            <p className="overline italic-extrabold">Overline</p>
+            <p className="subtitle">Subtitle</p>
+            <p className="subtitle italic">Subtitle Italic</p>
+        </div>
+    ))
+    .add('button', () => (
+        <div>
+            <p className="button-txt">Button</p>
+            <p className="button-txt italic">Button Italic</p>
+        </div>
+    ))
+    .add('body 2', () => (
+        <div>
+            <p className="body-2">Body 2</p>
+            <p className="body-2 italic">Body 2 italic</p>
+        </div>
+    ))
+    .add('caption', () => (
+        <div>
+            <p className="caption">Caption</p>
+            <p className="caption italic">Caption italic</p>
+        </div>
+    ))
+    .add('overline', () => (
+        <div>
+            <p className="overline">Overline</p>
+            <p className="caption italic">Overline italic</p>
+        </div>
+    ))
+    .add('strong and important', () => (
+        <div>
+            <strong>Strong</strong>
+            <i>important</i>
         </div>
     ))
