@@ -1,0 +1,40 @@
+@import "../../public/colors.scss";
+
+.textarea-name{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: $typography-border;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 0px 4px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    position: static;
+    width: 376px;
+    height: 131px;
+    left: 12px;
+    top: 38px;
+    border: 1px solid $typography-border;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 4px;
+    background: $typography-white;
+
+    color: $typography-border;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}

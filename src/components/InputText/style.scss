@@ -3,7 +3,7 @@
 .input-field {
     display: flex;        
     flex-direction: column;
-    color: $typography-disable;
+    color: $typography-border;
     width: 40%;
 
     & input {
@@ -22,7 +22,7 @@
         transition: 0.4s ease;
 
         &.default {
-            border: 1px solid $typography-disable;
+            border: 1px solid $typography-border;
         }
 
         &.focus {
