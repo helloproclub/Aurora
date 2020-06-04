@@ -26,13 +26,6 @@ storiesOf('Typography', module)
             <h1 className="italic-semibold">Italic Semibold</h1>
             <h1 className="italic-bold">Italic Bold</h1>
             <h1 className="italic-extrabold">Italic Extrabold</h1>
-            <p className="body-big regular">Body Big</p>
-            <p className="body-1 regular">Body 1</p>
-            <p className="subtitle regular">Subtitle</p>
-            <p className="button regular">Button</p>
-            <p className="body-2 regular">Body 2</p>
-            <p className="caption regular">Caption</p>
-            <p className="overline regular">Overline</p>
         </div>
     ))
     .add('H2', () => (
@@ -47,13 +40,6 @@ storiesOf('Typography', module)
             <h2 className="italic-semibold">Italic Semibold</h2>
             <h2 className="italic-bold">Italic Bold</h2>
             <h2 className="italic-extrabold">Italic Extrabold</h2>
-            <p className="body-big semibold">Body Big</p>
-            <p className="body-1 semibold">Body 1</p>
-            <p className="subtitle semibold">Subtitle</p>
-            <p className="button semibold">Button</p>
-            <p className="body-2 semibold">Body 2</p>
-            <p className="caption semibold">Caption</p>
-            <p className="overline semibold">Overline</p>
         </div>
     ))
     .add('H3', () => (
@@ -68,13 +54,6 @@ storiesOf('Typography', module)
             <h3 className="italic-semibold">Italic Semibold</h3>
             <h3 className="italic-bold">Italic Bold</h3>
             <h3 className="italic-extrabold">Italic Extrabold</h3>
-            <p className="body-big bold">Body Big</p>
-            <p className="body-1 bold">Body 1</p>
-            <p className="subtitle bold">Subtitle</p>
-            <p className="button bold">Button</p>
-            <p className="body-2 bold">Body 2</p>
-            <p className="caption bold">Caption</p>
-            <p className="overline bold">Overline</p>
         </div>
     ))
     .add('H4', () => (
@@ -89,13 +68,6 @@ storiesOf('Typography', module)
             <h4 className="italic-semibold">Italic Semibold</h4>
             <h4 className="italic-bold">Italic Bold</h4>
             <h4 className="italic-extrabold">Italic Extrabold</h4>
-            <p className="body-big extrabold">Body Big</p>
-            <p className="body-1 extrabold">Body 1</p>
-            <p className="subtitle extrabold">Subtitle</p>
-            <p className="button extrabold">Button</p>
-            <p className="body-2 extrabold">Body 2</p>
-            <p className="caption extrabold">Caption</p>
-            <p className="overline extrabold">Overline</p>
         </div>
     ))
     .add('H5', () => (
@@ -110,13 +82,6 @@ storiesOf('Typography', module)
             <h5 className="italic-semibold">Italic Semibold</h5>
             <h5 className="italic-bold">Italic Bold</h5>
             <h5 className="italic-extrabold">Italic Extrabold</h5>
-            <p className="body-big italic">Body Big</p>
-            <p className="body-1 italic">Body 1</p>
-            <p className="subtitle italic">Subtitle</p>
-            <p className="button italic">Button</p>
-            <p className="body-2 italic">Body 2</p>
-            <p className="caption italic">Caption</p>
-            <p className="overline italic">Overline</p>
         </div>
     ))
     .add('body big', () => (
