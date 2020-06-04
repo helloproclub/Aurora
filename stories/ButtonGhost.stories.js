@@ -11,7 +11,7 @@ storiesOf('Button Ghost', module)
             source: true
         }
     })
-    .add('Ghost Button Color Theme', () => (
+    .add('Ghost Button', () => (
         <div>
             <GhostButton text="GHOST BUTTON"></GhostButton>
         </div>

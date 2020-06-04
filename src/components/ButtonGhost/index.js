@@ -20,7 +20,7 @@ ButtonGhost.defaultProps = {
     type: "button",
     disabled: false,
     design : "primary",
-    onPressed: () => {alert('Oke Oce')},
+    onPressed: () => {},
 };
 
 ButtonGhost.propTypes = {
