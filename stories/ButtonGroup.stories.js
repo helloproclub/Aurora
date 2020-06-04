@@ -11,8 +11,16 @@ storiesOf('ButtonGroup', module)
     })
     .add('Default', () => (
         <div>
+            <ButtonGroup design="primary" text="Middle"/>
+        </div>
+    ))
+    .add('Left', () => (
+        <div>
             <ButtonGroup design="primary" position="left" text="Left"/>
-            <ButtonGroup design="primary" position="middle" text="Middle"/>
+        </div>
+    ))
+    .add('Right', () => (
+        <div>
             <ButtonGroup design="primary" position="right" text="Right"/>
         </div>
     ))
