@@ -14,4 +14,10 @@ storiesOf('TextArea', module)
             <TextArea textAreaName="Description"/>
         </div>
     ))
+
+    .add('Disabled', () => (
+        <div>
+            <TextArea textAreaName="Description" disabled="true"/>
+        </div>
+    ))
     

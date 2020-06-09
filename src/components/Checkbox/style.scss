@@ -1,6 +1,5 @@
 @import "../../public/colors.scss";
 
-
 .container-checkbox {
     display: block;
     position: relative;
@@ -28,8 +27,12 @@
         height: 0;
         width: 0;
 
+        &:hover ~ .checkmark {
+            cursor: pointer;
+        }
         &:disabled ~ .checkmark {
             background-color: $typography-disable;
+            cursor: no-drop;
         }
         &:checked ~ .checkmark {
             background-color: $accent-lavender;

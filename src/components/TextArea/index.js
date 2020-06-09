@@ -7,7 +7,6 @@ const TextArea = ({ textAreaName, placeholder, disabled }) => {
     if(textAreaName !== undefined){
         return (
             <div>
-                <span className="textarea-name">{textAreaName}</span>
                 <textarea
                     disabled={disabled}
                     className={`text-area`}
@@ -22,14 +21,13 @@ const TextArea = ({ textAreaName, placeholder, disabled }) => {
 }
 
 TextArea.defaultProps = {
-    // textAreaName: "Fieldtext Area",
     placeholder: "Use this for description",
     disabled: false,
 }
 
 TextArea.propTypes = {
-    textAreaName: PropTypes.string.isRequired,
-    placeholder: PropTypes.string.isRequired,
+    textAreaName: PropTypes.string,
+    placeholder: PropTypes.string,
     disabled: PropTypes.bool,
 }
 

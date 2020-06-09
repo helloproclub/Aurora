@@ -10,6 +10,7 @@ function loadStories() {
     require('../stories/ButtonText.stories');
     require('../stories/TextArea.stories');
     require('../stories/ButtonGhost.stories');
+    require('../stories/ButtonGroup.stories');
     require('../stories/ButtonOutline.stories');
     require("../stories/ButtonFilled.stories");
     require('../stories/Checkbox.stories');

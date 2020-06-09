@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import '../../public/fonts.scss';
 import './style.scss';
 
-const ButtonGroup = ({text, onPressed, disabled, size, position }) => {
+const ButtonGroup = ({ type, text, onPressed, disabled, position }) => {
     return (
         <button
             onClick={() => onPressed()}
             disabled={disabled}
-            className={`button-group ${size} ${'button-group-'+position}`}
+            className={`button-group ${'button-group-'+position}`}
         >
             {text}
         </button>
@@ -17,8 +17,7 @@ const ButtonGroup = ({text, onPressed, disabled, size, position }) => {
 
 ButtonGroup.defaultProps = {
     disabled: false,
-    onPressed: () => { alert('Di-kelik')},
-    size: "medium",
+    onPressed: () => {},
     position: "middle",
 };
 

@@ -4,7 +4,7 @@ import './style.scss';
 
 const Container = ({ backgroundColor }) => {
     return (
-        <div className={`palette ${backgroundColor}`}></div>
+        <div className={`palette background-${backgroundColor}`}></div>
     );
 };
 
