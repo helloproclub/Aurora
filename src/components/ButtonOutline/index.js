@@ -2,11 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style.scss";
 
-const ButtonOutline = ({ type, text, onPressed , disabled , design}) => {
+const ButtonOutline = ({text, onPressed , disabled , design}) => {
     const className = `button-outline`;
     return (
         <button 
-        type={type}
         onClick={ () => onPressed() }  
         className={`btn ${className}-${design}` }
         disabled={disabled}
@@ -17,10 +16,9 @@ const ButtonOutline = ({ type, text, onPressed , disabled , design}) => {
 };
 
 ButtonOutline.defaultProps = {
-    type: "button",
     disabled: false,
     design : "primary",
-    onPressed: () => {alert('Oke Oce')},
+    onPressed: () => {},
 };
 
 ButtonOutline.propTypes = {

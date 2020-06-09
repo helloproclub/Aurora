@@ -11,8 +11,19 @@ storiesOf('Button Ghost', module)
             source: true
         }
     })
-    .add('Ghost Button Color Theme', () => (
+    .add('Ghost Button', () => (
         <div>
             <GhostButton text="GHOST BUTTON"></GhostButton>
+        </div>
+    ))
+    .add('Ghost Button Active', () => (
+        <div>
+        <button 
+            onClick={ () => onPressed() }  
+            className={`btn`}
+            style={{background: "#FC8412",borderRadius: "8px", boxShadow: "1px 2px 10px rgba(0, 0, 0, 0.05)",color: "white"}}
+        >
+           GHOST BUTTON
+            </button> 
         </div>
     ))

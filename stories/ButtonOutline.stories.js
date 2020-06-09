@@ -11,7 +11,7 @@ storiesOf('Button Outline', module)
             source: true
         }
     })
-    .add('Outline Button Color Theme', () => (
+    .add('Outline Button', () => (
         <div>
             <OutlineButton text="OUTLINE BUTTON"></OutlineButton>
         </div>
