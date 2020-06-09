@@ -1,12 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./style.scss";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './style.scss';
 
-const ButtonFilled = ({ type, children, disabled, onPressed, ...rest }) => {
-  const className = `button button-filled`;
+const ButtonFilled = ({
+  type, children, state, disabled, onPressed, ...rest
+}) => {
+  const className = `button button-filled button-filled-${state}`;
   return (
     <button
-      type={type}
+      type="button"
       className={className}
       disabled={disabled}
       onClick={() => onPressed()}
@@ -18,17 +20,17 @@ const ButtonFilled = ({ type, children, disabled, onPressed, ...rest }) => {
 };
 
 ButtonFilled.defaultProps = {
-  type: "button",
+  type: 'button',
   onPressed: () => { },
   disabled: false,
 };
 
 ButtonFilled.propTypes = {
   type: PropTypes.string,
-  children: PropTypes.element,
   disabled: PropTypes.bool,
   onPressed: PropTypes.func,
-  rest: PropTypes.object,
+  children: PropTypes.node,
+  state: PropTypes.string,
 };
 
 export default ButtonFilled;
